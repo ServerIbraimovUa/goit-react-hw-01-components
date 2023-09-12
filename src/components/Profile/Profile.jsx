@@ -1,5 +1,5 @@
 import { Avatar, UserList } from './Profile.styled';
-import { Container } from 'components/Utils/Utils.styled';
+import { Container, UserContainer } from 'components/Utils/Utils.styled';
 import PropTypes from 'prop-types';
 export const Profile = props => {
   const {
@@ -10,10 +10,10 @@ export const Profile = props => {
     stats: { followers, views, likes },
   } = props;
   return (
-    <Container>
+    <UserContainer>
       <div>
         <Avatar src={avatar} alt="User avatar" />
-        <p>{username}</p>
+        <h1>{username}</h1>
         <p>@{tag}</p>
         <p>{location}</p>
       </div>
@@ -31,7 +31,7 @@ export const Profile = props => {
           <span>{likes}</span>
         </li>
       </UserList>
-    </Container>
+    </UserContainer>
   );
 };
 

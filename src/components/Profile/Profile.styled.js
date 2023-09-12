@@ -6,18 +6,22 @@ const Avatar = styled.img`
   padding: 3px;
 `;
 const UserList = styled.ul`
-  margin-top: 18px;
+  margin-top: 22px;
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 26px;
-
+  /* border-top: 1px solid black; */
   li {
+    width: 100%;
+    padding: 10px;
     display: flex;
     font-size: 24px;
     font-weight: 600;
     flex-direction: column;
     gap: 4px;
+  }
+  li + li {
+    border-left: 1px solid black;
   }
 `;
 export { UserList, Avatar };

@@ -21,5 +21,11 @@ export const Statistics = props => {
 };
 
 Statistics.propTypes = {
-  props: PropTypes.array,
+  props: PropTypes.arrayOf(
+    PropTypes.exact({
+      id: PropTypes.string,
+      label: PropTypes.string,
+      percentage: PropTypes.number,
+    })
+  ),
 };

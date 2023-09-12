@@ -22,6 +22,7 @@ export const Item = styled.li`
   &:hover,
   &:focus {
     background-color: #f4d668;
+    border: 1px dashed #fff;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
       rgba(0, 0, 0, 0.19) 0px 10px 20px;
   }
