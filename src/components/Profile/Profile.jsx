@@ -1,5 +1,5 @@
 import { Avatar, UserList } from './Profile.styled';
-import { Container, UserContainer } from 'components/Utils/Utils.styled';
+import { UserContainer } from 'components/Utils/Utils.styled';
 import PropTypes from 'prop-types';
 export const Profile = props => {
   const {
