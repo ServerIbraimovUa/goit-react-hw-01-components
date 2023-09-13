@@ -32,5 +32,5 @@ export const Span = styled.span`
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: ${props => (props.type ? 'green' : 'red')};
+  background-color: ${props => (props.children ? 'green' : 'red')};
 `;
