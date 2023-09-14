@@ -13,11 +13,7 @@ export const Container = styled.div`
     margin-bottom: 22px;
   }
 `;
-export const UserContainer = styled.div`
-  width: 490px;
-  margin-left: auto;
-  margin-right: auto;
-  /* padding: 40px 20px; */
-  text-align: center;
-  background-color: #fff;
+
+export const Section = styled.section`
+  padding: 35px;
 `;

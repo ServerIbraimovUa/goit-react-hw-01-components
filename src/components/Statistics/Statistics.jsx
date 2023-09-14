@@ -1,10 +1,9 @@
-import { Container } from 'components/Utils/Utils.styled';
 import { Item, List } from './Statistics.styled';
 import PropTypes from 'prop-types';
 
 export const Statistics = props => {
   return (
-    <Container>
+    <>
       <h2>{props.title}</h2>
       <List>
         {props.stats.map(({ id, label, percentage }) => {
@@ -16,7 +15,7 @@ export const Statistics = props => {
           );
         })}
       </List>
-    </Container>
+    </>
   );
 };
 

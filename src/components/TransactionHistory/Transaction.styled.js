@@ -2,10 +2,8 @@ import { getRandomColor } from 'components/Utils/GetRandomColor';
 import { styled } from 'styled-components';
 
 export const Table = styled.table`
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 24px;
-  width: 1100px;
+  font-size: 20px;
+  width: 100%;
   text-align: center;
 
   thead {
